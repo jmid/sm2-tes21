@@ -11,6 +11,8 @@ Useful resources
 
 [Installation instructions](INSTALL.md)
 
+[A minimal example of QCheck, ocamlfind, and ocamlbuild](https://github.com/jmid/qcheck-example)
+
 [OCaml standard library](http://caml.inria.fr/pub/docs/manual-ocaml/libref/)
 
 [QCheck documentation](http://c-cube.github.io/qcheck/0.16/qcheck/)
