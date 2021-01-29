@@ -33,6 +33,7 @@ For Linux and Mac:
     `opam init --disable-sandboxing`    (on Windows)
 
     Answer `y` to allowing `opam` to add changes to your `.profile`.
+    Also answer `y` to setting up an init-script hook.
 
  3. `opam switch create 4.11.1`       to build OCaml version 4.11.1;
 
