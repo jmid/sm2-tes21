@@ -21,7 +21,12 @@ For Linux and Mac:
 
  1. Install `opam`. See [the OPAM install page](https://opam.ocaml.org/doc/Install.html) for
     instructions. Depending on which method you use you may then need to
-    run some terminal commands, e.g., for Ubuntu (and Ubuntu under Windows Subsystem for Linux):
+    run some terminal commands. For a recent Ubuntu (and Ubuntu under Windows Subsystem for Linux) you can run:
+    ```
+     sudo apt-get install unzip
+     sh <(curl -sL https://raw.githubusercontent.com/ocaml/opam/master/shell/install.sh)
+    ```
+    For older Ubuntu versions you can run:
     ```
      sudo add-apt-repository ppa:avsm/ppa
      sudo apt update
