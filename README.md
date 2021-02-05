@@ -53,6 +53,8 @@ Here's some example uses of OCaml:
 
  - [NetHSM from Nitrokey is an open source HSM based on OCaml and MirageOS](https://www.nitrokey.com/products/nethsm)
 
+ - [The Tezos blockchain](https://en.wikipedia.org/wiki/Tezos) is implemented in OCaml
+
  - [Facebook](https://github.com/facebook/) uses OCaml in a number of open source projects:
    * [Infer](https://github.com/facebook/infer): a static analysis for Java, C, C++, ...
    * [Flow](https://github.com/facebook/flow): a type system for JavaScript
