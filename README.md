@@ -17,6 +17,12 @@ Useful resources
 
 [QCheck documentation](http://c-cube.github.io/qcheck/0.16/qcheck/)
 
+[Screencast illustrating utop](https://asciinema.org/a/226259)
+
+[Screencast illustrating the regular toplevel](https://asciinema.org/a/226227)
+
+[Screencast illustrating ocamlbuild and Makefiles](https://asciinema.org/a/226228)
+
 
 Top-level directives:
 =====================
