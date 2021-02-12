@@ -15,6 +15,8 @@ Useful resources
 
 [OCaml standard library](http://caml.inria.fr/pub/docs/manual-ocaml/libref/)
 
+[OCaml operator lookup](https://www.craigfe.io/operator-lookup/)
+
 [QCheck documentation](http://c-cube.github.io/qcheck/0.16/qcheck/)
 
 [Screencast illustrating utop](https://asciinema.org/a/226259)
