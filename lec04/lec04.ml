@@ -37,6 +37,9 @@ module Mymap =
              let compare = String.compare
            end)
 
+(* or similarly:
+module Mymap = Map.Make (String) *)
+
 (* Example using the map: *)
 let somemap =
   Mymap.bindings (Mymap.add "a" 1 (Mymap.add "b" 2 (Mymap.singleton "c" 3)))
