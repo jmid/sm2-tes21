@@ -24,7 +24,7 @@ module Intset =
            end)
 
 (* Utilizing the Stdlib's Int module to achieve the same *)
-module Intset = Set.Make (Int)
+module Intset' = Set.Make (Int)
 
 (* Now we can work with them: *)
 let someset =
