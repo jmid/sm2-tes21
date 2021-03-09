@@ -2,13 +2,13 @@ lec06:
 	ocamlbuild -use-ocamlfind -package qcheck,ppx_deriving.show lec06.native
 
 putget: putgetlib.o
-	ocamlbuild -I src -use-ocamlfind -package ctypes,ctypes.foreign,qcheck,qcstm,ppx_deriving.show -lflags putgetlib.o putget.native
+	ocamlbuild -I src -use-ocamlfind -tag thread -package ctypes,ctypes.foreign,qcheck,qcstm,ppx_deriving.show -lflags putgetlib.o putget.native
 
 putgetprint: putgetlib.o
-	ocamlbuild -I src -use-ocamlfind -package ctypes,ctypes.foreign,qcheck,qcstm,ppx_deriving.show -lflags putgetlib.o putgetprint.native
+	ocamlbuild -I src -use-ocamlfind -tag thread -package ctypes,ctypes.foreign,qcheck,qcstm,ppx_deriving.show -lflags putgetlib.o putgetprint.native
 
 putgetcomp: putgetlib.o
-	ocamlbuild -I src -use-ocamlfind -package ctypes,ctypes.foreign,qcheck,qcstm,ppx_deriving.show -lflags putgetlib.o putgetcomp.native
+	ocamlbuild -I src -use-ocamlfind -tag thread -package ctypes,ctypes.foreign,qcheck,qcstm,ppx_deriving.show -lflags putgetlib.o putgetcomp.native
 
 putgetlib.o: putgetlib.c
 	ocamlbuild putgetlib.o
