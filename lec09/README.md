@@ -43,7 +43,7 @@ As exercises consider the following:
      (fun l -> (int_of_string ""))))))
      ```
 
-     Write a function
+     Write a recursive function
 
      ```
        (*  subst_lit : string -> lit -> exp -> exp  *)
