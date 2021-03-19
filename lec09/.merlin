@@ -1,0 +1,8 @@
+# source code paths
+S lec09
+
+# build path
+B _build
+
+# package path
+PKG qcheck
