@@ -73,6 +73,8 @@ Here's some example uses of OCaml:
    * [Infer#](https://github.com/microsoft/infersharp) is a C# analysis frontend for Facebook's Infer
    * [The static device driver verifier](https://en.wikipedia.org/wiki/SLAM_project) was written in OCaml
 
+ - ARM has built a [Architecture Specification Language interpreter](https://github.com/ARM-software/asl-interpreter) in OCaml
+
  - [Astrée from AbsInt](https://www.absint.com/astree/) is a [static analysis tool written in OCaml](https://www.astree.ens.fr/). It is used to analyze and prevent errors, e.g., in Airbus software
 
  - ...
