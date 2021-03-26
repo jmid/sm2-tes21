@@ -48,7 +48,7 @@ Exercises:
 
      On Mac: `sudo brew install afl-fuzz` (Homebrew) or  `sudo port install afl` (MacPorts)  
 
-   - Download `ministat` from [here](https://github.com/thorduri/ministat) or some other C/C++ program
+   - Download `ministat` from [here](https://github.com/cemeyer/ministat-linux) or some other C/C++ program
      you would like to fuzz test.
 
    - Compile the program with `afl-clang` or `afl-gcc` (or `afl-clang++` or `afl-g++`)  
