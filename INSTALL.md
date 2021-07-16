@@ -11,9 +11,9 @@ The below instructions are adapted from [Scott F. Smith's instructions](http://p
 For Linux and Mac:
 ------------------
 
- 0. Install dependencies (m4, make, gcc):
+ 0. Install dependencies (git, m4, make, gcc):
     ```
-     sudo apt-get install m4 make gcc
+     sudo apt-get install git m4 make gcc
     ```
     (on Ubuntu/Debian Linux and Windows Subsystem for Linux)
 
